@@ -19,7 +19,7 @@ router.get("/", (req, res) => {
     let result = req.session.result;
 
     // resets results after each search
-    req.session.result = null;
+    // req.session.result = null;
 
     result.forEach((movie) => {
       if (movie.Poster === "N/A") {

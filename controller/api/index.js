@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
-const movie = require("./Movie-routes")
-const user = require("./User-routes")
+const movie = require("./movie-routes")
+const user = require("./user-routes")
 
 
 router.use("/movie", movie)
